@@ -1,0 +1,20 @@
+
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/nft_escrow/nft_escrow_client$ cargo run -- generate_vault_address --sign devnet-test.json --env dev
+   Compiling staking-nft-client v0.1.0 (/mnt/c/Users/HAMZA/Documents/BlockChain/nft_escrow/nft_escrow_client)
+    Finished dev [unoptimized + debuginfo] target(s) in 54.99s
+     Running `target/debug/staking-nft-client generate_vault_address --sign devnet-test.json --env dev`
+vault account generated: FRgzakwx2vg61PfF5kXgq8tVUFsFdcizMnvXcTkvTFTr
+tx id: 5n3tbj8rTY3Qzuy9dwzriER7yexbdwHZv3eY4GXkQHPiDoWdLrbCJXwApXruPFkv4StsnxWDWwZ7Fih1Xe6mabkx
+---------------------------------
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/nft_escrow/nft_escrow_client$ cargo run -- submit --sign candy_test.json --env dev --nft BcJKgEuxWGDqRMPcufA3ZouznkyuGKK8XD91C8DGbeUy
+    Finished dev [unoptimized + debuginfo] target(s) in 1.81s
+     Running `target/debug/staking-nft-client submit --sign candy_test.json --env dev --nft BcJKgEuxWGDqRMPcufA3ZouznkyuGKK8XD91C8DGbeUy`
+tx id: 42PkcYvYZm5NaPWWkiXnN2fXvdaHuoNpN8PZycVjqhXSFihdEyBH9bsemijX3okPSC7Nquw2d5SmRwDnKdBaatiX
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/nft_escrow/nft_escrow_client$
+----------------------------------
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/nft_escrow/nft_escrow_client$ cargo run -- claim --sign candy_test.json --env dev --nft BcJKgEuxWGD
+qRMPcufA3ZouznkyuGKK8XD91C8DGbeUy
+    Finished dev [unoptimized + debuginfo] target(s) in 1.10s
+     Running `target/debug/staking-nft-client claim --sign candy_test.json --env dev --nft BcJKgEuxWGDqRMPcufA3ZouznkyuGKK8XD91C8DGbeUy`
+tx id: 3oA4H64Q8hkmVyacX56jbcrskf9xBcxnVp4duNTr59A27bePP727fiQsYFWErhGXWLHGQJeyjnXknv8LjpVR8QXk
+----------------------------------
